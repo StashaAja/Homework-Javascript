@@ -12,7 +12,7 @@ function validateAnEntry() {
     var user = document.getElementById("user").value;
     console.log(user);
     console.log(typeof (user));
-
+    // So prviot if mi funkcionira:
     if (user === "") {
         return alert(`Please enter your text in the Input field!`)
     }
